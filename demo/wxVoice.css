@@ -1,0 +1,26 @@
+.wxVoice{
+    width: 100px;
+    height: 20px;
+    background-image: url(img/start.png);
+    background-size: 11px;
+    background-color: white;
+    background-repeat: no-repeat;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    background-position: 10px;
+    position: relative;
+    margin: 8px 0;
+}
+.playing{
+	background-image: url(img/record.gif);
+    background-size: 25px;
+}
+.wxVoice:after{
+    content: attr(data-duration);
+    position: absolute;
+    right: -30px;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    color: #acacac;
+}

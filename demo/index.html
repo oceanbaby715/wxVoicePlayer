@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>demo</title>
+	<link rel="stylesheet" type="text/css" href="wxVoice.css">
+</head>
+<body>
+	<audio class="wxAudio" src="sound/sound1.mp3" ></audio>
+	<audio class="wxAudio" src="sound/sound2.mp3"></audio>
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<script src="../src/wxVoicePlayer.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$(".wxAudio").wxVoicePlayer();
+		})
+	</script>
+</body>
+</html>
